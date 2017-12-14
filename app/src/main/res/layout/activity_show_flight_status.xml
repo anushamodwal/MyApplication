@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/fstatus"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:background="@color/colorYellow"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dep"
+        android:text="@string/depDetails"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/fstatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/depDetails"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/dep"
+        android:textColor="@color/colorGreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dest"
+        android:text="@string/destDetails"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/depDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/destDetails"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorGreen"
+        android:layout_below="@id/dest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/abtDest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorYellow"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="@string/abtDest" />
+
+
+</RelativeLayout>

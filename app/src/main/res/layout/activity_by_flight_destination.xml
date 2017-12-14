@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <EditText
+        android:id = "@+id/depAirport"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:hint = "@string/departure"
+        android:focusable = "true"
+        android:inputType="textCapCharacters"
+        android:textColorHint = "@color/colorYellow"
+        android:layout_marginTop = "50dp"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <EditText
+        android:id = "@+id/destAirport"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:hint = "@string/destination"
+        android:focusable = "true"
+        android:inputType="textCapCharacters"
+        android:textColorHint = "@color/colorYellow"
+        android:layout_marginTop = "50dp"
+        android:layout_below="@+id/depAirport"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <Button
+        android:text="@string/getStatus"
+        android:id="@+id/button_getStatusbyDest"
+        android:background="@color/colorYellow"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/destAirport"/>
+</RelativeLayout>

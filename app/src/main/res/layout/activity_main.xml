@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:text="@string/getFStatus"
+        android:id="@+id/statusText"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/byFDetails"
+        android:id="@+id/button_byFlight_details"
+        android:background="@color/colorYellow"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statusText"
+        />
+
+    <Button
+        android:text="@string/byDDetails"
+        android:id="@+id/button_byDestination_details"
+        android:background="@color/colorYellow"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_byFlight_details"
+        />
+</RelativeLayout>

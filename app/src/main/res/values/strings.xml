@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_flight_by_dest">FlightByDestActivity</string>
+    <string name="title_activity_show_flight_status">ShowFlightStatus</string>
+    <string name="departure">Flight Departure</string>
+    <string name="destination">Flight Destination</string>
+    <string name="getFStatus">Get Flight Status:</string>
+    <string name="byFDetails">By Flight Details</string>
+    <string name="byDDetails">By Destination Details</string>
+    <string name="getStatus">Get Status</string>
+    <string name="fnum">Enter Flight Number</string>
+    <string name="depDetails">Departure Details</string>
+    <string name="destDetails">Destination Details</string>
+    <string name="abtDest"><u>Click to know more about destination</u></string>
+    <string name="title_activity_dest_details">DestDetails</string>
+    <string name="destHeader">This what your destination looks like!</string>
+    <string name="airportDetails">Click to know more about Airports from departure and at destination</string>
+    <string name="destTemp">This what your destination feels like!</string>
+    <string name="title_activity_flight_statusby_dep_dest">FlightStatusbyDepDest</string>
+    <string name="title_activity_airport_details">AirportDetailsActivity</string>
+    <string name="depAirportDetails">Details of Departure Airport</string>
+    <string name="destAirportDetails">Details of Destination Airport</string>g>
+    <string name="place_not_found">Sorry, no weather data found.</string>
+
+</resources>
